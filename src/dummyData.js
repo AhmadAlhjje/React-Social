@@ -1,0 +1,103 @@
+export const Users=[
+    {
+        id:1,
+        profilePicture:"assest/person/1.jpg",
+        username:"Safak Kocaoglu",
+    },
+    {
+        id:2,
+        profilePicture:"assest/person/2.jpg",
+        username:"Safak Kocaoglu",
+    },
+    {
+        id:3,
+        profilePicture:"assest/person/3.jpg",
+        username:"Alex Durden",
+    },
+    {
+        id:4,
+        profilePicture:"assest/person/4.jpg",
+        username:"Dora Hawks",
+    },
+    {
+        id:5,
+        profilePicture:"assest/person/5.jpg",
+        username:"Thomas Holden",
+    },
+    {
+        id:6,
+        profilePicture:"assest/person/6.jpg",
+        username:"Shirley Beauchamp",
+    },
+    {
+        id:7,
+        profilePicture:"assest/person/7.jpg",
+        username:"Travis Bennett",
+    },
+];
+
+export const Posts=[
+    {
+        id:1,
+        desc:"Love For All, Hatred For None",
+        photo:"assest/post/post1.jpg",
+        date:"5 min ago",
+        userId:1,
+        like:32,
+        comment:9,
+    },
+    {
+        id:2,
+        desc:"",
+        photo:"assest/post/post2.jpg",
+        date:"10 min ago",
+        userId:2,
+        like:2,
+        comment:1,
+    },
+    {
+        id:3,
+        desc:"Every moment is a Tresn beginning",
+        photo:"assest/post/post3.jpg",
+        date:"15 min ago",
+        userId:3,
+        like:7,
+        comment:7,
+    },
+    {
+        id:4,
+        desc:"",
+        photo:"assest/post/post4.jpg",
+        date:"25 min ago",
+        userId:4,
+        like:400,
+        comment:54,
+    },
+    {
+        id:5,
+        desc:"Love For All, Hatred For None",
+        photo:"assest/post/post5.jpg",
+        date:"40 min ago",
+        userId:5,
+        like:54,
+        comment:32,
+    },
+    {
+        id:6,
+        desc:"Love For All, Hatred For None",
+        photo:"assest/post/post6.jpg",
+        date:"43 min ago",
+        userId:6,
+        like:15,
+        comment:6,
+    },
+    {
+        id:7,
+        desc:"Love For All, Hatred For None",
+        photo:"assest/post/post1.jpg",
+        date:"55 min ago",
+        userId:7,
+        like:67,
+        comment:12,
+    },
+];

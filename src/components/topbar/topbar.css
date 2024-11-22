@@ -1,0 +1,146 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarLeft{
+    flex: 3;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+
+
+.topbarCenter{
+    flex: 5;
+}
+.searchbar{
+    width: 130%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 70%;
+}
+.searchInput:focus{
+    outline: none;
+}
+
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+.topbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.topbarImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.ControlPanel{
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .topbarContainer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .topbarLeft,
+    .topbarCenter,
+    .topbarRight {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .topbarSearch {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .topbarLogo {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .topbarLinks {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .topbarLink {
+        margin: 5px 5px;
+    }
+
+    .topbarImg {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        bottom: 70px;
+        left: 20px;
+    }
+    .ControlPanel{
+        display: block;
+    }
+}
